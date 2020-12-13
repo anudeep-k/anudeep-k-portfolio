@@ -100,3 +100,16 @@ footer ul li{
     from, to { border-color: transparent }
     50% { border-color: #1E3A8A; }
   }
+
+
+  @media(max-width:480px ){
+      img{
+          height: 100px;
+          width: 100px;
+      }
+      .avatar{
+          display: flex;
+          flex-direction: column;
+         align-items: center;
+      }
+  }
